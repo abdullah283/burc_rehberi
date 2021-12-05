@@ -1,9 +1,9 @@
 import 'package:burc_rehberi/model/burc.dart';
 import 'package:flutter/material.dart';
 
-class burcOlusturma extends StatelessWidget {
+class BurcOlusturma extends StatelessWidget {
   final Burc gelenBurc;
-  const burcOlusturma({required this.gelenBurc, Key? key}) : super(key: key);
+  const BurcOlusturma({required this.gelenBurc, Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

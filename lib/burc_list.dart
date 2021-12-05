@@ -19,7 +19,7 @@ class burcListesi extends StatelessWidget {
           child: ListView.builder(
               itemCount: tumBurclar.length,
               itemBuilder: (Context, index) {
-                return burcOlusturma(gelenBurc: tumBurclar[index]);
+                return BurcOlusturma(gelenBurc: tumBurclar[index]);
               })),
     );
   }
